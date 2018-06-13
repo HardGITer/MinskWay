@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:background="@android:color/background_light">
+        <ImageButton
+            android:src="@drawable/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnBackOptions"
+            android:background="@android:color/background_light" />
+        <TextView
+            android:text="Настройки"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtOptions"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="26dp" />
+    </LinearLayout>
+    <Button
+        android:text="Как пользоваться"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnManual" />
+    <Button
+        android:text="Информация"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnInfo" />
+    <TextView
+        android:text="У вас актуальное расписание на 05.05.2018"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewActualShedule"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:gravity="center" />
+</LinearLayout>

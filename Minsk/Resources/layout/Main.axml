@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:background="@android:color/black">
+        <ImageButton
+            android:layout_weight="0.25"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/imgBtnBus"
+            android:background="@android:color/background_light"
+            android:src="@drawable/conceptbus3" />
+        <ImageButton
+            android:layout_weight="0.25"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/imgBtnTroll"
+            android:background="@android:color/background_light"
+            android:src="@drawable/concepttroll3" />
+        <ImageButton
+            android:layout_weight="0.25"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/imgBtnMetro"
+            android:background="@android:color/background_light"
+            android:src="@drawable/conceptmetro3" />
+        <ImageButton
+            android:src="@drawable/conceptlove32"
+            android:layout_weight="0.25"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/imgBtnBest"
+            android:background="@android:color/background_light" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="60"
+        android:id="@+id/relativeLayout1">
+        <GridView
+            android:columnWidth="45dp"
+            android:layout_gravity="center"
+            android:background="#fcfdff"
+            android:numColumns="auto_fit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:horizontalSpacing="3dp"
+            android:verticalSpacing="3dp"
+            android:id="@+id/gridView1" />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:background="@android:color/black">
+        <ImageButton
+            android:src="@drawable/conceptshedule3"
+            android:layout_weight="0.25"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/imgBtnShedule"
+            android:background="@android:color/background_light" />
+        <ImageButton
+            android:layout_weight="0.25"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/imgBtnShortestWay"
+            android:background="@android:color/background_light"
+            android:src="@drawable/conceptway3" />
+        <ImageButton
+            android:layout_weight="0.25"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/imgBtnMap"
+            android:background="@android:color/background_light"
+            android:src="@drawable/conceptmap3" />
+        <ImageButton
+            android:src="@drawable/conceptsettings3"
+            android:layout_weight="0.25"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/imgBtnOptions"
+            android:background="@android:color/background_light" />
+    </LinearLayout>
+</LinearLayout>

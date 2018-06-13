@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2">
+            <ImageButton
+                android:src="@drawable/btnback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnBack"
+                android:background="@android:color/background_light" />
+            <TextView
+                android:text="Number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtNumber"
+                android:textColor="@android:color/background_dark"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textSize="26dp" />
+        </LinearLayout>
+        <TextView
+            android:text="Way To"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:id="@+id/txtWayTo"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp"
+            android:background="#F5F5F5"
+            android:paddingTop="2dp" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="4dp"
+            android:id="@+id/btnBack"
+            android:background="@android:color/background_light" />
+        <TextView
+            android:text="Way From"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:id="@+id/txtWayFrom"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp"
+            android:background="#F5F5F5"
+            android:paddingTop="2dp" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="4dp"
+            android:id="@+id/btnBackk"
+            android:background="@android:color/background_light" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLove"
+            android:text="В избранное" />
+    </LinearLayout>
+</LinearLayout>
